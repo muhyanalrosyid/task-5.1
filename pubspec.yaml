@@ -1,0 +1,41 @@
+name: list_menu
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project
+environment: 
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  http: ^0.13.6
+  get_cli: 1.8.1
+  get: ^4.6.6
+  flutter: 
+    sdk: flutter
+ 
+dev_dependencies: 
+  flutter_lints: ^3.0.2
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+asset: 
+    - assets/avatar.png
+    - assets:/google.png
+    - assets/sagala.png
+fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+          
+uses-material-design: true
+
